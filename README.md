@@ -1,31 +1,35 @@
 
 <div align="center">
 
-# 🚢 UserFerry
+<img src="https://ps.w.org/userferry/assets/icon-128x128.gif" alt="UserFerry Plugin Icon" width="128" height="128">
+
+# UserFerry
 ### Export & Import WordPress Users
 
-**A powerful and flexible solution for WordPress user data management.**
+**Powerful User Management for WordPress**
 
-Export, import, and manage users with custom profile fields using CSV, XLSX, JSON, and XML.
+Export, import, and manage WordPress users with custom profile fields using a simple and flexible workflow.
 
 Developed by **[Md. Farhan Sadik](https://profiles.wordpress.org/farhansadik01/)**
 
-[![WordPress Plugin](https://img.shields.io/wordpress/plugin/v/userferry?style=for-the-badge&logo=wordpress)](https://wordpress.org/plugins/userferry/)
-[![Downloads](https://img.shields.io/wordpress/plugin/dt/userferry?style=for-the-badge&logo=wordpress)](https://wordpress.org/plugins/userferry/)
+[![WordPress Plugin Version](https://img.shields.io/wordpress/plugin/v/userferry?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org/plugins/userferry/)
+[![WordPress Downloads](https://img.shields.io/wordpress/plugin/dt/userferry?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org/plugins/userferry/)
+[![License](https://img.shields.io/badge/License-GPL--2.0%2B-blue?style=for-the-badge)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 [🌐 WordPress.org](https://wordpress.org/plugins/userferry/) ·
 [⬇️ Download Plugin](https://downloads.wordpress.org/plugin/userferry.1.0.0.zip) ·
+[🎬 Video Tutorial](https://www.youtube.com/watch?v=TNJCre6AAvk) ·
 [💬 Support](https://wordpress.org/support/plugin/userferry/)
 
 </div>
 
 ---
 
-## ✨ About UserFerry
+## ✨ Overview
 
-UserFerry helps you export and import WordPress users while maintaining control over user profile fields and custom metadata.
+**UserFerry** is a WordPress plugin designed to simplify exporting and importing registered users, including supported custom profile fields and metadata.
 
-Whether you're migrating users between websites, updating existing records, or managing large user databases, UserFerry provides a streamlined workflow directly inside your WordPress dashboard.
+Whether you're migrating users between WordPress websites, updating existing records, or managing a large user database, UserFerry provides flexible tools directly inside your WordPress dashboard.
 
 ## 🚀 Key Features
 
@@ -33,36 +37,39 @@ Whether you're migrating users between websites, updating existing records, or m
 <tr>
 <td width="50%" valign="top">
 
-### 📤 Export Users
+### 📤 User Export
 
 - Export all users or filter by role.
-- Filter by registration date.
-- Select individual users.
-- Search, sort, and preview user counts.
+- Filter users by registration date.
+- Select individual users from a searchable list.
+- Search and sort users.
+- Preview matching user counts.
 - Choose and reorder export columns.
 
 </td>
 <td width="50%" valign="top">
 
-### 📥 Import Users
+### 📥 User Import
 
-- Import CSV, XLSX, JSON, and XML.
+- Import CSV, XLSX, JSON, and XML files.
 - Automatically match columns to fields.
-- Create or update existing users.
-- Skip records when needed.
+- Create new users or update existing accounts.
+- Skip existing records when needed.
 - Review failed rows and error messages.
+- Set an appropriate default role for new users.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🧩 Custom Fields
+### 🧩 Custom Profile Fields
 
 - Detect supported custom user metadata.
 - Select the fields you want to export.
-- Integrate with supported plugin metadata.
-- Refresh available fields when needed.
+- Work with supported plugin metadata.
+- Refresh detected fields when needed.
+- Organize export columns in your preferred order.
 
 </td>
 <td width="50%" valign="top">
@@ -72,7 +79,30 @@ Whether you're migrating users between websites, updating existing records, or m
 - Save reusable export templates.
 - Edit, duplicate, and delete templates.
 - Review import and export activity.
-- Access previously generated export files when available.
+- Download previously generated export files when available.
+- Configure automatic cleanup of old files.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ Batch Processing
+
+- Process large datasets in batches.
+- Track progress during import and export.
+- Use file and data limits to help protect server resources.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔒 Security & Privacy
+
+- Permission-aware role assignment.
+- Protected export file storage.
+- Spreadsheet formula injection protection.
+- Import validation and row-level error reporting.
+- No third-party requests by default, except optional YouTube playback after user interaction.
 
 </td>
 </tr>
@@ -92,7 +122,7 @@ Learn how to use UserFerry with this step-by-step video walkthrough.
 
 ### ▶️ [Watch Video Tutorial on YouTube](https://www.youtube.com/watch?v=TNJCre6AAvk)
 
-*Click the preview above to watch the complete walkthrough.*
+*Click the video preview above to watch the complete walkthrough.*
 
 </div>
 
@@ -107,7 +137,7 @@ Explore the UserFerry dashboard, export tools, import workflow, templates, histo
 <div align="center">
 
 <a href="https://ps.w.org/userferry/assets/screenshot-7.png?rev=3746398">
-<img src="https://ps.w.org/userferry/assets/screenshot-7.png?rev=3746398" alt="UserFerry main documentation interface" width="100%">
+<img src="https://ps.w.org/userferry/assets/screenshot-7.png?rev=3746398" alt="UserFerry built-in documentation interface" width="100%">
 </a>
 
 **Built-in Documentation**
@@ -128,7 +158,7 @@ Explore the UserFerry dashboard, export tools, import workflow, templates, histo
 <img src="https://ps.w.org/userferry/assets/screenshot-1.png?rev=3746398" alt="UserFerry Dashboard" width="100%">
 </a>
 
-Overview, quick actions, templates, and recent activity.
+View site totals, quick actions, templates, and recent activity.
 
 </td>
 <td width="50%" valign="top">
@@ -139,7 +169,7 @@ Overview, quick actions, templates, and recent activity.
 <img src="https://ps.w.org/userferry/assets/screenshot-2.png?rev=3746398" alt="UserFerry Export Users" width="100%">
 </a>
 
-Select users and configure your export.
+Choose users and configure your export.
 
 </td>
 </tr>
@@ -149,10 +179,10 @@ Select users and configure your export.
 **03 — Custom Field Selection**
 
 <a href="https://ps.w.org/userferry/assets/screenshot-3.png?rev=3746398">
-<img src="https://ps.w.org/userferry/assets/screenshot-3.png?rev=3746398" alt="UserFerry custom field selection" width="100%">
+<img src="https://ps.w.org/userferry/assets/screenshot-3.png?rev=3746398" alt="UserFerry Custom Field Selection" width="100%">
 </a>
 
-Choose fields and organize export columns.
+Select custom fields and organize export columns.
 
 </td>
 <td width="50%" valign="top">
@@ -176,7 +206,7 @@ Map file columns to WordPress user fields.
 <img src="https://ps.w.org/userferry/assets/screenshot-5.png?rev=3746398" alt="UserFerry Export Templates" width="100%">
 </a>
 
-Save and reuse your export configurations.
+Save and reuse export configurations.
 
 </td>
 <td width="50%" valign="top">
@@ -184,10 +214,10 @@ Save and reuse your export configurations.
 **06 — History**
 
 <a href="https://ps.w.org/userferry/assets/screenshot-6.png?rev=3746398">
-<img src="https://ps.w.org/userferry/assets/screenshot-6.png?rev=3746398" alt="UserFerry import and export history" width="100%">
+<img src="https://ps.w.org/userferry/assets/screenshot-6.png?rev=3746398" alt="UserFerry Import and Export History" width="100%">
 </a>
 
-Review past operations and available downloads.
+Review previous operations and available downloads.
 
 </td>
 </tr>
@@ -208,7 +238,7 @@ Review past operations and available downloads.
 
 </div>
 
-## 🧩 Supported Custom Field Sources
+## 🧩 Custom Field Integrations
 
 UserFerry can detect supported user metadata associated with:
 
@@ -221,56 +251,86 @@ UserFerry can detect supported user metadata associated with:
 - Registration form plugins
 - Custom user metadata
 
-Actual field availability depends on the metadata stored on your website and supported integrations.
+Field availability depends on the metadata stored on your website and supported integrations.
 
 ---
 
-## 🔒 Security & Privacy
+## 🔒 Security & Data Protection
+
+UserFerry includes safeguards designed to support responsible user data management:
 
 - Permission-aware role assignment.
+- The current administrator's own role is not changed during imports.
 - Protected export file storage.
-- Configurable automatic file cleanup.
+- Configurable automatic cleanup of old files.
 - Import file and data limits.
 - Row-level error reporting.
 - Spreadsheet formula injection protection enabled by default.
 - No third-party requests by default, except optional YouTube playback after user interaction.
 
-**Tip:** Always back up your website before performing bulk user imports or updates.
+**Important:** Always back up your website before performing bulk user imports or updates.
 
 ---
 
 ## 📦 Installation
 
-1. Download UserFerry from the [WordPress.org Plugin Directory](https://wordpress.org/plugins/userferry/).
-2. Open your WordPress admin dashboard.
-3. Navigate to **Plugins → Add New Plugin**.
-4. Search for **UserFerry – Export & Import Users**.
-5. Click **Install Now**, then **Activate**.
-6. Open the **UserFerry** menu to get started.
+### Install from WordPress.org
 
-[⬇️ Download UserFerry ZIP](https://downloads.wordpress.org/plugin/userferry.1.0.0.zip)
+1. Log in to your WordPress admin dashboard.
+2. Navigate to **Plugins → Add New Plugin**.
+3. Search for **UserFerry – Export & Import Users**.
+4. Click **Install Now**, then **Activate**.
+5. Open the **UserFerry** menu to get started.
+
+### Download ZIP
+
+[⬇️ Download UserFerry](https://downloads.wordpress.org/plugin/userferry.1.0.0.zip)
 
 ---
 
 ## 🔗 Useful Links
 
-- 🌐 [WordPress.org Plugin Page](https://wordpress.org/plugins/userferry/)
-- ⬇️ [Download Plugin](https://downloads.wordpress.org/plugin/userferry.1.0.0.zip)
-- 🎬 [Video Tutorial](https://www.youtube.com/watch?v=TNJCre6AAvk)
-- 💬 [Support Forum](https://wordpress.org/support/plugin/userferry/)
-- 👨‍💻 [Developer Profile](https://profiles.wordpress.org/farhansadik01/)
-- 💻 [GitHub Profile](https://github.com/mdfarhan01)
+| Resource | Link |
+|---|---|
+| WordPress.org Plugin | [View Plugin](https://wordpress.org/plugins/userferry/) |
+| Plugin Download | [Download ZIP](https://downloads.wordpress.org/plugin/userferry.1.0.0.zip) |
+| Video Tutorial | [Watch on YouTube](https://www.youtube.com/watch?v=TNJCre6AAvk) |
+| Support Forum | [Get Support](https://wordpress.org/support/plugin/userferry/) |
+| Developer Profile | [WordPress.org Profile](https://profiles.wordpress.org/farhansadik01/) |
+| GitHub Profile | [mdfarhan01](https://github.com/mdfarhan01) |
+
+---
+
+## 👨‍💻 Developer
+
+<div align="center">
+
+<img src="https://secure.gravatar.com/avatar/96747e57cc43ef31a68d36e573697436952b33a3e1719bd13fb834605736439f?s=96&d=mm&r=g" width="80" alt="Md. Farhan Sadik">
+
+### Md. Farhan Sadik
+
+**WordPress Developer · Plugin Developer**
+
+Building useful WordPress tools with a focus on functionality, performance, and user experience.
+
+[WordPress Profile](https://profiles.wordpress.org/farhansadik01/) · [GitHub](https://github.com/mdfarhan01)
+
+</div>
+
+---
+
+## 📄 License
+
+UserFerry is open-source software. Refer to the license file included with the plugin for the applicable license terms.
 
 ---
 
 <div align="center">
 
-### 👨‍💻 Developed by Md. Farhan Sadik
+### UserFerry — Simplifying WordPress User Data Management
 
-WordPress Developer · Plugin Developer
+Made with ❤️ by **[Md. Farhan Sadik](https://profiles.wordpress.org/farhansadik01/)**
 
-[WordPress Profile](https://profiles.wordpress.org/farhansadik01/) · [GitHub](https://github.com/mdfarhan01)
-
-**UserFerry — Simplifying WordPress User Data Management**
+[WordPress.org](https://wordpress.org/plugins/userferry/) · [GitHub](https://github.com/mdfarhan01/userferry)
 
 </div>
