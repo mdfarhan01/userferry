@@ -1,0 +1,2491 @@
+# Copyright (C) 2026 Md. Farhan Sadik
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: UserFerry – Export & Import Users 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/userferry\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-12T15:58:21+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: userferry\n"
+
+#. Plugin Name of the plugin
+#: userferry.php
+msgid "UserFerry – Export & Import Users"
+msgstr ""
+
+#. Description of the plugin
+#: userferry.php
+msgid "Export and import WordPress users with their custom profile fields — CSV, Excel (XLSX), JSON or XML. Reusable export templates and a downloadable history."
+msgstr ""
+
+#. Author of the plugin
+#: userferry.php
+msgid "Md. Farhan Sadik"
+msgstr ""
+
+#: includes/class-userferry-admin.php:33
+#: includes/class-userferry-admin.php:34
+#: includes/class-userferry-admin.php:45
+#: templates/admin/header.php:48
+#: templates/admin/header.php:58
+msgid "UserFerry"
+msgstr ""
+
+#: includes/class-userferry-admin.php:62
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#. translators: %s: developer name
+#: includes/class-userferry-admin.php:100
+msgid "UserFerry is developed by %s."
+msgstr ""
+
+#: includes/class-userferry-admin.php:129
+#: templates/admin/history.php:72
+msgid "Export"
+msgstr ""
+
+#: includes/class-userferry-admin.php:130
+#: templates/admin/dashboard.php:124
+#: templates/admin/docs.php:196
+#: templates/admin/history.php:72
+#: templates/admin/import.php:19
+msgid "Import"
+msgstr ""
+
+#: includes/class-userferry-admin.php:144
+#: includes/functions.php:182
+#: includes/functions.php:183
+#: templates/admin/docs.php:113
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-userferry-assets.php:81
+msgid "The server did not respond. Check your connection and try again."
+msgstr ""
+
+#: includes/class-userferry-assets.php:82
+msgid "Something went wrong. Reload the page and try again."
+msgstr ""
+
+#: includes/class-userferry-assets.php:83
+msgid "Scanning…"
+msgstr ""
+
+#: includes/class-userferry-assets.php:84
+#: includes/class-userferry-assets.php:166
+#: templates/admin/partials/field-picker.php:35
+msgid "Scan custom fields"
+msgstr ""
+
+#. translators: %s: number of custom fields
+#: includes/class-userferry-assets.php:86
+msgid "Scan complete — %s custom fields found."
+msgstr ""
+
+#. translators: %s: time of the last scan
+#. translators: %s: time of the last scan, e.g. "5 mins ago"
+#: includes/class-userferry-assets.php:88
+#: templates/admin/partials/field-picker.php:30
+msgid "Fields detected automatically · last scanned %s"
+msgstr ""
+
+#. translators: 1: number selected, 2: total number
+#: includes/class-userferry-assets.php:90
+msgid "%1$s of %2$s fields selected"
+msgstr ""
+
+#: includes/class-userferry-assets.php:91
+#: templates/admin/partials/field-picker.php:99
+msgid "No fields match that filter."
+msgstr ""
+
+#: includes/class-userferry-assets.php:92
+msgid "Tick fields above. Each one becomes a column here, in this order."
+msgstr ""
+
+#: includes/class-userferry-assets.php:93
+msgid "Remove column"
+msgstr ""
+
+#: includes/class-userferry-assets.php:94
+msgid "not found on this site"
+msgstr ""
+
+#: includes/class-userferry-assets.php:95
+#: templates/admin/partials/field-picker.php:87
+msgid "Show"
+msgstr ""
+
+#: includes/class-userferry-assets.php:96
+msgid "Hide"
+msgstr ""
+
+#: includes/class-userferry-assets.php:97
+msgid "Loading users…"
+msgstr ""
+
+#: includes/class-userferry-assets.php:98
+msgid "No users match this search."
+msgstr ""
+
+#. translators: 1: current page, 2: total pages, 3: total users
+#: includes/class-userferry-assets.php:100
+msgid "Page %1$s of %2$s · %3$s users"
+msgstr ""
+
+#. translators: %s: number of users
+#: includes/class-userferry-assets.php:102
+msgid "%s users match"
+msgstr ""
+
+#: includes/class-userferry-assets.php:103
+msgid "1 user matches"
+msgstr ""
+
+#: includes/class-userferry-assets.php:104
+msgid "Counting users…"
+msgstr ""
+
+#: includes/class-userferry-assets.php:105
+msgid "Select at least one user, or choose a different option."
+msgstr ""
+
+#: includes/class-userferry-assets.php:106
+msgid "Select at least one role."
+msgstr ""
+
+#: includes/class-userferry-assets.php:107
+msgid "Enter a start or end date for the custom range."
+msgstr ""
+
+#: includes/class-userferry-assets.php:108
+#: modules/export/class-userferry-export-job.php:76
+msgid "Choose at least one field to export."
+msgstr ""
+
+#: includes/class-userferry-assets.php:109
+#: modules/templates/class-userferry-templates.php:85
+msgid "Give the template a name."
+msgstr ""
+
+#: includes/class-userferry-assets.php:110
+#: templates/admin/header.php:40
+msgid "Template saved."
+msgstr ""
+
+#: includes/class-userferry-assets.php:111
+msgid "Template updated."
+msgstr ""
+
+#: includes/class-userferry-assets.php:112
+msgid "Template deleted."
+msgstr ""
+
+#: includes/class-userferry-assets.php:113
+msgid "Template duplicated."
+msgstr ""
+
+#. translators: %s: template name
+#: includes/class-userferry-assets.php:115
+msgid "Loaded template “%s”. Its fields are ticked below — adjust anything you like, then export."
+msgstr ""
+
+#. translators: %s: template name
+#: includes/class-userferry-assets.php:117
+msgid "Update “%s”"
+msgstr ""
+
+#: includes/class-userferry-assets.php:118
+#: templates/admin/dashboard.php:49
+#: templates/admin/partials/actions.php:47
+#: templates/admin/templates.php:67
+msgid "New template"
+msgstr ""
+
+#: includes/class-userferry-assets.php:119
+msgid "Edit template"
+msgstr ""
+
+#: includes/class-userferry-assets.php:120
+#: templates/admin/export.php:125
+#: templates/admin/templates.php:111
+msgid "Save template"
+msgstr ""
+
+#: includes/class-userferry-assets.php:121
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-userferry-assets.php:122
+msgid "Saving…"
+msgstr ""
+
+#: includes/class-userferry-assets.php:123
+msgid "Delete this template?"
+msgstr ""
+
+#. translators: %s: template name
+#: includes/class-userferry-assets.php:125
+msgid "“%s” will be removed. Past exports in History are not affected."
+msgstr ""
+
+#: includes/class-userferry-assets.php:126
+#: templates/admin/history.php:85
+#: templates/admin/templates.php:56
+msgid "Delete"
+msgstr ""
+
+#: includes/class-userferry-assets.php:127
+#: templates/admin/export.php:126
+#: templates/admin/templates.php:110
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-userferry-assets.php:128
+#: templates/admin/templates.php:68
+msgid "Close"
+msgstr ""
+
+#: includes/class-userferry-assets.php:129
+msgid "Delete this export?"
+msgstr ""
+
+#: includes/class-userferry-assets.php:130
+msgid "The history entry and its file will be permanently removed."
+msgstr ""
+
+#: includes/class-userferry-assets.php:131
+msgid "Delete all exports?"
+msgstr ""
+
+#: includes/class-userferry-assets.php:132
+msgid "Every history entry and every export file will be permanently removed. Templates are kept."
+msgstr ""
+
+#: includes/class-userferry-assets.php:133
+msgid "Delete everything"
+msgstr ""
+
+#: includes/class-userferry-assets.php:134
+msgid "All exports deleted."
+msgstr ""
+
+#: includes/class-userferry-assets.php:135
+msgid "Export deleted."
+msgstr ""
+
+#: includes/class-userferry-assets.php:136
+msgid "Preparing export…"
+msgstr ""
+
+#. translators: 1: processed users, 2: total users
+#: includes/class-userferry-assets.php:138
+msgid "Exported %1$s of %2$s users"
+msgstr ""
+
+#: includes/class-userferry-assets.php:139
+msgid "Writing file…"
+msgstr ""
+
+#: includes/class-userferry-assets.php:140
+msgid "Export ready"
+msgstr ""
+
+#. translators: 1: number of users, 2: file size
+#: includes/class-userferry-assets.php:142
+msgid "%1$s users exported · %2$s. Your download should start automatically."
+msgstr ""
+
+#: includes/class-userferry-assets.php:143
+msgid "Download file"
+msgstr ""
+
+#: includes/class-userferry-assets.php:144
+msgid "Export failed"
+msgstr ""
+
+#: includes/class-userferry-assets.php:145
+#: templates/admin/export.php:135
+msgid "Run export"
+msgstr ""
+
+#: includes/class-userferry-assets.php:146
+msgid "Exporting…"
+msgstr ""
+
+#. translators: %s: template name
+#: includes/class-userferry-assets.php:148
+msgid "Exporting “%s”"
+msgstr ""
+
+#: includes/class-userferry-assets.php:149
+#: templates/admin/dashboard.php:91
+msgid "View history"
+msgstr ""
+
+#: includes/class-userferry-assets.php:150
+#: modules/export/class-userferry-export-config.php:198
+#: templates/admin/partials/scope.php:21
+msgid "All users"
+msgstr ""
+
+#. translators: %s: number of users
+#: includes/class-userferry-assets.php:152
+msgid "%s selected users"
+msgstr ""
+
+#. translators: %s: role list
+#. translators: %s: comma separated list of roles
+#: includes/class-userferry-assets.php:154
+#: modules/export/class-userferry-export-config.php:182
+msgid "Role: %s"
+msgstr ""
+
+#: includes/class-userferry-assets.php:155
+#: modules/export/class-userferry-export-config.php:186
+msgid "Registered today"
+msgstr ""
+
+#: includes/class-userferry-assets.php:156
+#: modules/export/class-userferry-export-config.php:187
+msgid "Registered in the last 7 days"
+msgstr ""
+
+#: includes/class-userferry-assets.php:157
+#: modules/export/class-userferry-export-config.php:188
+msgid "Registered in the last 30 days"
+msgstr ""
+
+#. translators: 1: start date, 2: end date
+#: includes/class-userferry-assets.php:159
+#: modules/export/class-userferry-export-config.php:194
+msgid "Registered %1$s to %2$s"
+msgstr ""
+
+#. translators: %s: search term
+#: includes/class-userferry-assets.php:161
+#: modules/export/class-userferry-export-config.php:203
+msgid "matching “%s”"
+msgstr ""
+
+#: includes/class-userferry-assets.php:162
+msgid "ascending"
+msgstr ""
+
+#: includes/class-userferry-assets.php:163
+msgid "descending"
+msgstr ""
+
+#. translators: %s: number of fields
+#: includes/class-userferry-assets.php:165
+msgid "%s fields"
+msgstr ""
+
+#. translators: %s: time of the last scan
+#: includes/class-userferry-assets.php:168
+msgid "Last scanned %s"
+msgstr ""
+
+#: includes/class-userferry-assets.php:169
+#: modules/import/class-userferry-import-ajax.php:55
+msgid "Choose a file to import."
+msgstr ""
+
+#: includes/class-userferry-assets.php:170
+msgid "Reading file…"
+msgstr ""
+
+#: includes/class-userferry-assets.php:171
+#: modules/import/class-userferry-import-job.php:212
+msgid "Use a .csv, .xlsx, .json or .xml file."
+msgstr ""
+
+#. translators: %s: maximum upload size
+#: includes/class-userferry-assets.php:173
+#: modules/import/class-userferry-import-ajax.php:68
+msgid "That file is larger than the %s upload limit."
+msgstr ""
+
+#. translators: %s: number of rows
+#: includes/class-userferry-assets.php:175
+msgid "%s rows"
+msgstr ""
+
+#. translators: %s: sort column and direction, e.g. "User ID, ascending"
+#: includes/class-userferry-assets.php:177
+msgid "Sorted by %s"
+msgstr ""
+
+#: includes/class-userferry-assets.php:178
+#: templates/admin/templates.php:54
+msgid "Edit"
+msgstr ""
+
+#: includes/class-userferry-assets.php:179
+msgid "Columns in the file, in this order"
+msgstr ""
+
+#: includes/class-userferry-assets.php:180
+msgid "Auto-matched"
+msgstr ""
+
+#: includes/class-userferry-assets.php:181
+msgid "Don’t import"
+msgstr ""
+
+#: includes/class-userferry-assets.php:182
+msgid "New custom field…"
+msgstr ""
+
+#: includes/class-userferry-assets.php:183
+msgid "meta_key"
+msgstr ""
+
+#: includes/class-userferry-assets.php:184
+msgid "Identify users"
+msgstr ""
+
+#: includes/class-userferry-assets.php:185
+#: templates/admin/docs.php:150
+#: templates/admin/partials/field-picker.php:42
+msgid "WordPress profile"
+msgstr ""
+
+#: includes/class-userferry-assets.php:186
+msgid "Password"
+msgstr ""
+
+#: includes/class-userferry-assets.php:187
+msgid "Custom fields"
+msgstr ""
+
+#: includes/class-userferry-assets.php:188
+#: templates/admin/docs.php:154
+#: templates/admin/partials/field-picker.php:82
+msgid "Hidden & plugin data"
+msgstr ""
+
+#: includes/class-userferry-assets.php:189
+#: modules/import/class-userferry-import-job.php:304
+msgid "Map at least one column to Email, Username or User ID so users can be matched or created."
+msgstr ""
+
+#: includes/class-userferry-assets.php:190
+#: modules/import/class-userferry-import-job.php:297
+msgid "Two columns are mapped to the same field. Each field can be imported only once."
+msgstr ""
+
+#: includes/class-userferry-assets.php:191
+msgid "Enter a meta key (letters, numbers, underscores and dashes) for every “New custom field” column."
+msgstr ""
+
+#. translators: 1: number of rows, 2: file format
+#: includes/class-userferry-assets.php:193
+msgid "%1$s rows · %2$s"
+msgstr ""
+
+#. translators: 1: number of mapped columns, 2: total columns
+#: includes/class-userferry-assets.php:195
+msgid "%1$s of %2$s columns will be imported"
+msgstr ""
+
+#: includes/class-userferry-assets.php:196
+#: templates/admin/import.php:186
+msgid "Start import"
+msgstr ""
+
+#: includes/class-userferry-assets.php:197
+msgid "Importing…"
+msgstr ""
+
+#. translators: 1: processed rows, 2: total rows
+#: includes/class-userferry-assets.php:199
+msgid "Processed %1$s of %2$s rows"
+msgstr ""
+
+#: includes/class-userferry-assets.php:200
+msgid "Import complete"
+msgstr ""
+
+#: includes/class-userferry-assets.php:201
+msgid "Import stopped"
+msgstr ""
+
+#: includes/class-userferry-assets.php:202
+msgid "Created"
+msgstr ""
+
+#: includes/class-userferry-assets.php:203
+msgid "Updated"
+msgstr ""
+
+#: includes/class-userferry-assets.php:204
+msgid "Skipped"
+msgstr ""
+
+#: includes/class-userferry-assets.php:205
+msgid "Failed"
+msgstr ""
+
+#: includes/class-userferry-assets.php:206
+msgid "Row"
+msgstr ""
+
+#: includes/class-userferry-assets.php:207
+msgid "Problem"
+msgstr ""
+
+#. translators: %s: number of further problems not listed
+#: includes/class-userferry-assets.php:209
+msgid "…and %s more rows with problems."
+msgstr ""
+
+#: includes/class-userferry-assets.php:210
+msgid "Import another file"
+msgstr ""
+
+#: includes/class-userferry-assets.php:211
+msgid "View users"
+msgstr ""
+
+#: includes/class-userferry-fields.php:30
+#: modules/export/class-userferry-export-config.php:27
+#: templates/admin/import.php:114
+#: templates/admin/settings.php:125
+msgid "User ID"
+msgstr ""
+
+#: includes/class-userferry-fields.php:31
+#: modules/export/class-userferry-export-config.php:29
+#: modules/import/class-userferry-import-job.php:95
+#: templates/admin/import.php:113
+#: templates/admin/settings.php:124
+msgid "Username"
+msgstr ""
+
+#: includes/class-userferry-fields.php:32
+#: modules/export/class-userferry-export-config.php:30
+#: modules/import/class-userferry-import-job.php:94
+#: templates/admin/import.php:112
+#: templates/admin/partials/scope.php:97
+#: templates/admin/settings.php:123
+msgid "Email"
+msgstr ""
+
+#: includes/class-userferry-fields.php:33
+#: modules/import/class-userferry-import-job.php:96
+msgid "First name"
+msgstr ""
+
+#: includes/class-userferry-fields.php:34
+#: modules/import/class-userferry-import-job.php:97
+msgid "Last name"
+msgstr ""
+
+#: includes/class-userferry-fields.php:35
+#: modules/export/class-userferry-export-config.php:31
+#: modules/import/class-userferry-import-job.php:98
+msgid "Display name"
+msgstr ""
+
+#: includes/class-userferry-fields.php:36
+#: modules/import/class-userferry-import-job.php:99
+msgid "Nickname"
+msgstr ""
+
+#: includes/class-userferry-fields.php:37
+#: modules/import/class-userferry-import-job.php:100
+#: templates/admin/partials/scope.php:98
+msgid "Role"
+msgstr ""
+
+#: includes/class-userferry-fields.php:38
+#: modules/import/class-userferry-import-job.php:101
+msgid "Website"
+msgstr ""
+
+#: includes/class-userferry-fields.php:39
+#: modules/export/class-userferry-export-config.php:28
+#: modules/import/class-userferry-import-job.php:102
+msgid "Registered date"
+msgstr ""
+
+#: includes/class-userferry-fields.php:40
+#: modules/import/class-userferry-import-job.php:103
+msgid "Biographical info"
+msgstr ""
+
+#: includes/class-userferry-fields.php:41
+#: modules/import/class-userferry-import-job.php:104
+msgid "Profile slug"
+msgstr ""
+
+#: includes/class-userferry-fields.php:42
+msgid "User status"
+msgstr ""
+
+#: includes/class-userferry-fields.php:46
+#: modules/import/class-userferry-import-job.php:108
+msgid "Password hash"
+msgstr ""
+
+#. translators: %s: human time difference, e.g. "5 mins"
+#: includes/class-userferry-fields.php:190
+#: templates/admin/settings.php:179
+msgid "%s ago"
+msgstr ""
+
+#. translators: 1: Required PHP version 2: Current PHP version
+#: includes/class-userferry-plugin.php:147
+msgid "UserFerry requires PHP %1$s or higher. Your server is running %2$s."
+msgstr ""
+
+#: includes/class-userferry-plugin.php:163
+msgid "Cannot unserialize singleton."
+msgstr ""
+
+#: includes/class-userferry-settings.php:110
+msgid "You do not have permission to change these settings."
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:66
+msgid "The storage folder could not be created."
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:74
+msgid "A test file could not be written to the storage folder."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: includes/class-userferry-storage-check.php:108
+msgid "An anonymous request was refused (HTTP %d)."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: includes/class-userferry-storage-check.php:116
+msgid "The request was redirected (HTTP %d), so protection could not be confirmed."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: includes/class-userferry-storage-check.php:119
+msgid "The test file was not found at its expected address (HTTP %d). Uploads may be served from another address, so protection could not be confirmed."
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:121
+msgid "The server answered, but not with the test file, so protection could not be confirmed."
+msgstr ""
+
+#. translators: %d: HTTP status code
+#: includes/class-userferry-storage-check.php:124
+msgid "The server returned an unexpected response (HTTP %d), so protection could not be confirmed."
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:145
+#: traits/trait-userferry-ajax-guard.php:29
+msgid "You do not have permission to do that."
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:161
+#: includes/class-userferry-storage-check.php:203
+msgid "User export files are protected"
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:175
+msgid "Security"
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:178
+msgid "Open UserFerry settings"
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:182
+msgid "User export files can be downloaded without logging in"
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:185
+msgid "Your web server (usually Nginx) ignores the protection rules in the export folder. Add the rule shown in the plugin settings to your server configuration, or store exports outside the web root with the USERFERRY_EXPORT_DIR constant."
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:193
+msgid "User export folder protection could not be verified"
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:196
+msgid "The site could not request its own export folder to confirm it is blocked. If you use Nginx, add the rule shown in the plugin settings."
+msgstr ""
+
+#: includes/class-userferry-storage-check.php:206
+msgid "Export files cannot be downloaded without logging in."
+msgstr ""
+
+#: includes/functions.php:134
+#: includes/functions.php:135
+#: templates/admin/docs.php:101
+msgid "Dashboard"
+msgstr ""
+
+#: includes/functions.php:136
+msgid "Overview of your users, templates and recent activity."
+msgstr ""
+
+#: includes/functions.php:142
+#: includes/functions.php:143
+#: templates/admin/dashboard.php:39
+#: templates/admin/docs.php:103
+msgid "Export users"
+msgstr ""
+
+#: includes/functions.php:144
+msgid "Choose who to include, which fields become columns, and the file format."
+msgstr ""
+
+#: includes/functions.php:150
+#: includes/functions.php:151
+#: templates/admin/dashboard.php:44
+#: templates/admin/docs.php:105
+#: templates/admin/partials/actions.php:20
+msgid "Import users"
+msgstr ""
+
+#: includes/functions.php:152
+msgid "Create or update users from a CSV, Excel, JSON or XML file — including files exported by this plugin."
+msgstr ""
+
+#: includes/functions.php:158
+#: templates/admin/docs.php:47
+#: templates/admin/docs.php:107
+msgid "Templates"
+msgstr ""
+
+#: includes/functions.php:159
+msgid "Export templates"
+msgstr ""
+
+#: includes/functions.php:160
+msgid "Saved users, fields and format — run them again with one click."
+msgstr ""
+
+#: includes/functions.php:166
+#: includes/functions.php:167
+#: templates/admin/docs.php:109
+#: templates/admin/settings.php:101
+msgid "History"
+msgstr ""
+
+#: includes/functions.php:168
+msgid "Every export and import, with downloads for export files."
+msgstr ""
+
+#: includes/functions.php:174
+#: includes/functions.php:175
+#: templates/admin/docs.php:111
+msgid "Settings"
+msgstr ""
+
+#: includes/functions.php:176
+msgid "Defaults for exports and imports, file output, history and privacy."
+msgstr ""
+
+#: includes/functions.php:184
+msgid "Everything you need to export, import and keep user data safe."
+msgstr ""
+
+#: modules/export/class-userferry-export-ajax.php:149
+#: modules/templates/class-userferry-templates-ajax.php:42
+#: modules/templates/class-userferry-templates.php:132
+#: modules/templates/class-userferry-templates.php:155
+msgid "That template no longer exists."
+msgstr ""
+
+#. translators: %s: number of users
+#: modules/export/class-userferry-export-config.php:173
+msgid "%s selected user"
+msgid_plural "%s selected users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/export/class-userferry-export-download.php:47
+msgid "You do not have permission to download exports."
+msgstr ""
+
+#: modules/export/class-userferry-export-download.php:59
+msgid "This export record no longer exists."
+msgstr ""
+
+#: modules/export/class-userferry-export-download.php:79
+msgid "The export file was not found. It may have been removed by the automatic cleanup — run the export again."
+msgstr ""
+
+#: modules/export/class-userferry-export-job.php:62
+msgid "This export is no longer available. Please start it again."
+msgstr ""
+
+#: modules/export/class-userferry-export-job.php:79
+msgid "Excel export needs the PHP ZipArchive extension, which is not installed on this server. Choose CSV instead — it opens in Excel too."
+msgstr ""
+
+#: modules/export/class-userferry-export-job.php:82
+msgid "The exports folder inside wp-content/uploads could not be created. Check that the uploads folder is writable."
+msgstr ""
+
+#: modules/export/class-userferry-export-job.php:87
+msgid "No users match these filters. Change who is included and try again."
+msgstr ""
+
+#: modules/export/class-userferry-export-job.php:94
+#: modules/export/class-userferry-export-job.php:137
+msgid "Could not write to the exports folder."
+msgstr ""
+
+#: modules/export/class-userferry-export-query.php:180
+msgid "Active"
+msgstr ""
+
+#: modules/export/class-userferry-export-query.php:180
+msgid "Inactive"
+msgstr ""
+
+#: modules/export/class-userferry-export-writer.php:78
+msgid "The export file could not be written."
+msgstr ""
+
+#: modules/export/class-userferry-export-writer.php:235
+msgid "XML export needs the PHP XMLWriter extension."
+msgstr ""
+
+#: modules/export/class-userferry-export-writer.php:326
+msgid "Excel export needs the PHP ZipArchive extension."
+msgstr ""
+
+#: modules/import/class-userferry-import-ajax.php:52
+#: traits/trait-userferry-ajax-guard.php:33
+msgid "Your session has expired. Reload the page and try again."
+msgstr ""
+
+#: modules/import/class-userferry-import-ajax.php:64
+msgid "The file did not upload correctly. It may be larger than the server allows."
+msgstr ""
+
+#: modules/import/class-userferry-import-job.php:80
+#: modules/import/class-userferry-import-job.php:348
+msgid "This import is no longer available. Upload the file again."
+msgstr ""
+
+#: modules/import/class-userferry-import-job.php:93
+msgid "User ID (match only)"
+msgstr ""
+
+#: modules/import/class-userferry-import-job.php:105
+msgid "Password (plain text)"
+msgstr ""
+
+#: modules/import/class-userferry-import-job.php:215
+msgid "The plugin folder inside wp-content/uploads could not be created. Check that the uploads folder is writable."
+msgstr ""
+
+#. translators: %s: column name
+#: modules/import/class-userferry-import-job.php:290
+msgid "Column “%s” has an invalid or protected meta key."
+msgstr ""
+
+#: modules/import/class-userferry-import-job.php:343
+msgid "Map the columns before starting the import."
+msgstr ""
+
+#. translators: %s: role text from the file
+#: modules/import/class-userferry-import-job.php:570
+msgid "Unknown role “%s”, or a role you are not allowed to assign."
+msgstr ""
+
+#. translators: %s: email address
+#: modules/import/class-userferry-import-job.php:583
+msgid "“%s” is not a valid email address."
+msgstr ""
+
+#. translators: %s: username
+#: modules/import/class-userferry-import-job.php:628
+msgid "You are not allowed to edit user “%s”."
+msgstr ""
+
+#. translators: %s: email address
+#: modules/import/class-userferry-import-job.php:637
+#: modules/import/class-userferry-import-job.php:671
+msgid "The email %s already belongs to another user."
+msgstr ""
+
+#: modules/import/class-userferry-import-job.php:661
+msgid "A new user needs a username or an email address."
+msgstr ""
+
+#. translators: %s: username
+#: modules/import/class-userferry-import-job.php:667
+msgid "The username %s is already taken by a different user."
+msgstr ""
+
+#. translators: %s: maximum number of columns
+#: modules/import/class-userferry-import-reader.php:93
+#: modules/import/class-userferry-import-reader.php:187
+#: modules/import/class-userferry-import-reader.php:212
+#: modules/import/class-userferry-import-reader.php:332
+msgid "This file has more than %s columns. Remove unused columns and try again."
+msgstr ""
+
+#. translators: %s: row number
+#: modules/import/class-userferry-import-reader.php:104
+msgid "Row %s has values in columns that have no name in the first row. Add a column name for every column that contains data, then import again."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:127
+msgid "Could not write to the plugin’s folder inside wp-content/uploads."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:162
+msgid "No rows were found in this file. Make sure the first row contains column names and the file has at least one user."
+msgstr ""
+
+#. translators: 1: row number, 2: column name, 3: maximum size
+#: modules/import/class-userferry-import-reader.php:201
+msgid "Row %1$s, column “%2$s” is longer than the %3$s limit for one cell."
+msgstr ""
+
+#. translators: %s: maximum number of rows
+#: modules/import/class-userferry-import-reader.php:225
+msgid "This file has more than %s rows. Split it into smaller files and import them one after another."
+msgstr ""
+
+#. translators: %d: column number
+#: modules/import/class-userferry-import-reader.php:267
+msgid "Column %d"
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:304
+msgid "The uploaded file could not be read."
+msgstr ""
+
+#. translators: %s: maximum file size
+#: modules/import/class-userferry-import-reader.php:381
+msgid "JSON files larger than %s cannot be imported safely. Export as CSV instead — CSV is read row by row, so it has no size limit beyond your upload limit."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:386
+msgid "This is not valid JSON. The file should contain an array of user objects."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:410
+msgid "XML import needs the PHP XMLReader and DOM extensions."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:415
+msgid "This XML file could not be opened."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:444
+msgid "No user records were found in this XML file. Expected a root element with one child element per user."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:488
+msgid "Excel import needs the PHP ZipArchive and XMLReader extensions. Save the file as CSV and import that instead."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:493
+msgid "This Excel file could not be opened. Save it again as .xlsx (or CSV) and retry."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:497
+msgid "This Excel file is too large to import safely. Save it as CSV (or split it) and import that instead."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:498
+msgid "This Excel file expands to an unusually large size and was rejected for safety. Save it again as CSV and import that."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:552
+msgid "No worksheet was found in this Excel file."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:576
+msgid "This Excel file contains more text than can be read safely within your server’s memory limit. Save it as CSV and import that instead — CSV is read row by row."
+msgstr ""
+
+#: modules/import/class-userferry-import-reader.php:588
+msgid "The worksheet in this Excel file could not be read."
+msgstr ""
+
+#: modules/templates/class-userferry-templates.php:90
+msgid "Choose at least one field for this template."
+msgstr ""
+
+#: modules/templates/class-userferry-templates.php:95
+msgid "Choose at least one role, or include all users."
+msgstr ""
+
+#: modules/templates/class-userferry-templates.php:141
+msgid "The template could not be saved. Deactivate and reactivate the plugin to repair its database tables."
+msgstr ""
+
+#. translators: %s: template name
+#: modules/templates/class-userferry-templates.php:159
+msgid "%s (copy)"
+msgstr ""
+
+#: templates/admin/dashboard.php:17
+msgid "Users on this site"
+msgstr ""
+
+#: templates/admin/dashboard.php:18
+msgid "Custom fields detected"
+msgstr ""
+
+#: templates/admin/dashboard.php:19
+msgid "Saved templates"
+msgstr ""
+
+#: templates/admin/dashboard.php:20
+msgid "History entries"
+msgstr ""
+
+#: templates/admin/dashboard.php:39
+msgid "Pick users and fields, download CSV, Excel, JSON or XML."
+msgstr ""
+
+#: templates/admin/dashboard.php:44
+msgid "Create or update users from an exported file."
+msgstr ""
+
+#: templates/admin/dashboard.php:49
+msgid "Save a set of users and fields for one-click exports."
+msgstr ""
+
+#: templates/admin/dashboard.php:56
+msgid "Run a template"
+msgstr ""
+
+#: templates/admin/dashboard.php:57
+msgid "Manage templates"
+msgstr ""
+
+#: templates/admin/dashboard.php:61
+msgid "A template remembers who to include, which fields to export and the file format, so a repeat export is a single click."
+msgstr ""
+
+#: templates/admin/dashboard.php:62
+msgid "Create your first template"
+msgstr ""
+
+#. translators: %s: number of fields
+#: templates/admin/dashboard.php:73
+msgid "%s field"
+msgid_plural "%s fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/dashboard.php:79
+msgid "Open"
+msgstr ""
+
+#: templates/admin/dashboard.php:80
+#: templates/admin/templates.php:51
+msgid "Export now"
+msgstr ""
+
+#: templates/admin/dashboard.php:90
+msgid "Recent activity"
+msgstr ""
+
+#: templates/admin/dashboard.php:95
+msgid "Finished exports and imports appear here."
+msgstr ""
+
+#. translators: 1: number of users, 2: date
+#: templates/admin/dashboard.php:112
+msgid "Imported %1$s users · %2$s"
+msgstr ""
+
+#. translators: 1: number of users, 2: date
+#: templates/admin/dashboard.php:114
+msgid "Exported %1$s users · %2$s"
+msgstr ""
+
+#: templates/admin/dashboard.php:122
+#: templates/admin/history.php:82
+msgid "Download"
+msgstr ""
+
+#: templates/admin/dashboard.php:126
+#: templates/admin/history.php:68
+msgid "File removed"
+msgstr ""
+
+#: templates/admin/docs.php:44
+msgid "Getting started"
+msgstr ""
+
+#: templates/admin/docs.php:45
+msgid "Running an export"
+msgstr ""
+
+#: templates/admin/docs.php:46
+msgid "Choosing fields"
+msgstr ""
+
+#: templates/admin/docs.php:48
+msgid "Importing users"
+msgstr ""
+
+#: templates/admin/docs.php:49
+msgid "File formats"
+msgstr ""
+
+#: templates/admin/docs.php:50
+msgid "History & downloads"
+msgstr ""
+
+#: templates/admin/docs.php:51
+msgid "Settings reference"
+msgstr ""
+
+#: templates/admin/docs.php:52
+msgid "Security & privacy"
+msgstr ""
+
+#: templates/admin/docs.php:53
+msgid "FAQ"
+msgstr ""
+
+#: templates/admin/docs.php:54
+msgid "Developer hooks"
+msgstr ""
+
+#: templates/admin/docs.php:55
+msgid "About"
+msgstr ""
+
+#: templates/admin/docs.php:61
+msgid "How can we help?"
+msgstr ""
+
+#: templates/admin/docs.php:62
+msgid "Start with the guide that matches what you want to do, or browse every topic in the contents list."
+msgstr ""
+
+#: templates/admin/docs.php:67
+msgid "Export users to a file"
+msgstr ""
+
+#: templates/admin/docs.php:68
+msgid "Import users from a file"
+msgstr ""
+
+#: templates/admin/docs.php:69
+msgid "Save and reuse templates"
+msgstr ""
+
+#: templates/admin/docs.php:70
+msgid "Common questions"
+msgstr ""
+
+#: templates/admin/docs.php:83
+#: templates/admin/docs.php:84
+msgid "Contents"
+msgstr ""
+
+#: templates/admin/docs.php:97
+msgid "UserFerry exports the people registered on your site — including the custom profile fields that other plugins add — to CSV, Excel, JSON or XML. You decide exactly which users are included and which fields become columns."
+msgstr ""
+
+#: templates/admin/docs.php:98
+msgid "After activation you will find <strong>UserFerry</strong> in the WordPress admin menu. It has seven screens, listed in the sidebar on the left of every plugin page:"
+msgstr ""
+
+#: templates/admin/docs.php:102
+msgid "Site totals, one-click template exports and your most recent files."
+msgstr ""
+
+#: templates/admin/docs.php:104
+msgid "A four-step wizard: users, fields, format, review."
+msgstr ""
+
+#: templates/admin/docs.php:106
+msgid "Create or update users from a CSV, Excel, JSON or XML file."
+msgstr ""
+
+#: templates/admin/docs.php:108
+msgid "Create, edit, duplicate, delete and run saved export setups."
+msgstr ""
+
+#: templates/admin/docs.php:110
+msgid "Every export with a download link, who ran it and when."
+msgstr ""
+
+#: templates/admin/docs.php:112
+msgid "Defaults, CSV options, history cleanup and privacy options (administrators only)."
+msgstr ""
+
+#: templates/admin/docs.php:114
+msgid "This page."
+msgstr ""
+
+#: templates/admin/docs.php:116
+msgid "<strong>Requirements:</strong> WordPress 6.2 or newer and PHP 7.4 or newer. Excel export also needs the PHP <code>ZipArchive</code> extension, which almost every host provides."
+msgstr ""
+
+#: templates/admin/docs.php:121
+msgid "Open <strong>UserFerry → Export users</strong>. The wizard walks you through four steps; you can go back to any finished step from the step bar."
+msgstr ""
+
+#: templates/admin/docs.php:124
+#: templates/admin/export.php:14
+#: templates/admin/header.php:28
+#: templates/admin/history.php:49
+#: templates/admin/templates.php:85
+msgid "Users"
+msgstr ""
+
+#: templates/admin/docs.php:125
+msgid "Choose <strong>All users</strong>, <strong>By role</strong>, <strong>By registration date</strong> or <strong>Specific users</strong>. With specific users you search and tick people from a paged list; your ticks are kept while you search and change pages."
+msgstr ""
+
+#: templates/admin/docs.php:126
+msgid "Optionally narrow the result with a search term (it matches username, email, display name and profile slug) and choose how rows are sorted. The live counter under the options shows how many users will be exported."
+msgstr ""
+
+#: templates/admin/docs.php:129
+#: templates/admin/export.php:15
+#: templates/admin/templates.php:93
+msgid "Fields"
+msgstr ""
+
+#: templates/admin/docs.php:130
+msgid "Tick the fields you want. Each ticked field becomes a column, shown in the <strong>Column order</strong> strip at the bottom where you can reorder or remove columns. See “Choosing fields” below."
+msgstr ""
+
+#: templates/admin/docs.php:133
+#: templates/admin/docs.php:218
+#: templates/admin/export.php:16
+#: templates/admin/history.php:48
+msgid "Format"
+msgstr ""
+
+#: templates/admin/docs.php:134
+msgid "Pick CSV, Excel (XLSX), JSON or XML and set the file name. The date and a short random code are appended automatically."
+msgstr ""
+
+#: templates/admin/docs.php:137
+#: templates/admin/export.php:17
+msgid "Review & export"
+msgstr ""
+
+#: templates/admin/docs.php:138
+msgid "Check the summary, optionally save everything as a template, then click <strong>Run export</strong>. A progress bar shows each batch; when the file is ready the download starts by itself and a <strong>Download file</strong> button stays on screen."
+msgstr ""
+
+#: templates/admin/docs.php:142
+msgid "<strong>Large sites:</strong> exports run in batches (200 users per request by default), so even sites with hundreds of thousands of users finish without timeouts. Keep the tab open until the file is ready."
+msgstr ""
+
+#: templates/admin/docs.php:148
+msgid "Fields are listed in three groups. Each field shows a readable name and, underneath, its real database key so two similar names are never confused."
+msgstr ""
+
+#: templates/admin/docs.php:151
+msgid "User ID, username, email, first and last name, display name, nickname, role, website, registered date, biographical info, profile slug and status."
+msgstr ""
+
+#: templates/admin/docs.php:152
+#: templates/admin/partials/field-picker.php:61
+msgid "Custom profile fields"
+msgstr ""
+
+#: templates/admin/docs.php:153
+msgid "Every other meta key found in the user meta table — data saved by ACF, Ultimate Member, WooCommerce (billing and shipping), BuddyPress, Meta Box, JetEngine, registration form plugins and your own code."
+msgstr ""
+
+#: templates/admin/docs.php:155
+msgid "Keys that begin with an underscore, admin screen preferences, dismissed notices and plugin housekeeping. This group is collapsed by default; click “Show” if you need something from it."
+msgstr ""
+
+#: templates/admin/docs.php:157
+msgid "Why each field appears only once"
+msgstr ""
+
+#: templates/admin/docs.php:159
+msgid "Plugins such as ACF save two meta keys for every field: the value (<code>district</code>) and a hidden reference (<code>_district</code>) that only stores the field’s internal ID. Listing both would show every field twice, so the scanner drops the reference key whenever the real value exists, and skips <code>first_name</code>, <code>last_name</code>, <code>nickname</code> and <code>description</code> because they are already in the WordPress profile group."
+msgstr ""
+
+#: templates/admin/docs.php:160
+msgid "The field list is cached for 12 hours. After installing a plugin that adds user fields — or after the first user fills in a new form field — click <strong>Scan custom fields</strong>."
+msgstr ""
+
+#: templates/admin/docs.php:162
+#: templates/admin/partials/field-picker.php:103
+msgid "Column order"
+msgstr ""
+
+#: templates/admin/docs.php:163
+msgid "Columns are added in the order you tick them. Drag a column in the strip to move it, or focus it with the Tab key and use the left and right arrow keys. Press Delete or Backspace to remove it."
+msgstr ""
+
+#: templates/admin/docs.php:164
+msgid "How values are written"
+msgstr ""
+
+#: templates/admin/docs.php:165
+msgid "Simple lists (for example checkbox values) are joined with commas. Complex values are written as JSON so no data is lost. Roles use their readable names."
+msgstr ""
+
+#: templates/admin/docs.php:170
+msgid "A template stores who to include, the fields in their column order, the format and the file name. Example: a template named “Subscribers — login & education” with role <em>Subscriber</em> and the fields Username, Email, Last name and Education."
+msgstr ""
+
+#: templates/admin/docs.php:171
+#: templates/admin/templates.php:19
+msgid "Create a template"
+msgstr ""
+
+#: templates/admin/docs.php:172
+msgid "Either click <strong>New template</strong> on the Templates screen and fill in the editor, or build an export in the wizard and use <strong>Save as new template</strong> on the review step."
+msgstr ""
+
+#: templates/admin/docs.php:173
+msgid "Use a template"
+msgstr ""
+
+#: templates/admin/docs.php:174
+msgid "<strong>Export now</strong> runs the template immediately and downloads the file. <strong>Open in wizard</strong> (or “Start from a template” at the top of the wizard) loads it with every field already ticked, so you can adjust anything before exporting."
+msgstr ""
+
+#: templates/admin/docs.php:175
+msgid "Edit, duplicate and delete"
+msgstr ""
+
+#: templates/admin/docs.php:176
+msgid "Use the pencil, copy and bin buttons on each template card. When you load a template into the wizard and change it, the review step also offers <strong>Update</strong> to overwrite the original. Deleting a template does not delete past exports."
+msgstr ""
+
+#: templates/admin/docs.php:181
+msgid "Open <strong>Import users</strong> to create or update accounts from a file. Any file exported by this plugin — CSV, Excel, JSON or XML — can be imported again unchanged, so you can move users between sites, or export, edit in Excel and import the changes back."
+msgstr ""
+
+#: templates/admin/docs.php:184
+#: templates/admin/import.php:16
+msgid "Upload file"
+msgstr ""
+
+#: templates/admin/docs.php:185
+msgid "Drop a .csv, .xlsx, .json or .xml file onto the upload area. The first row (or the keys of each JSON/XML record) must contain the column names. Comma, semicolon and tab separated CSV files are detected automatically."
+msgstr ""
+
+#: templates/admin/docs.php:188
+#: templates/admin/import.php:17
+msgid "Map columns"
+msgstr ""
+
+#: templates/admin/docs.php:189
+msgid "Every column is matched to a field automatically — by its name, its meta key or common words such as “Email” or “Surname”. Change any row, choose “Don’t import” to ignore a column, or pick “New custom field…” to save it under a meta key of your choice. At least one column must be Email, Username or User ID."
+msgstr ""
+
+#: templates/admin/docs.php:192
+#: templates/admin/import.php:18
+msgid "Options"
+msgstr ""
+
+#: templates/admin/docs.php:193
+msgid "Decide how existing users are found (email, username or ID), whether they are updated or skipped, whether new users are created, the role for new users without a Role column, whether empty cells are ignored, and whether new users receive the WordPress welcome email."
+msgstr ""
+
+#: templates/admin/docs.php:197
+msgid "Rows are processed in small batches with a progress bar. The summary shows how many users were created, updated, skipped or failed, with the row number and reason for every problem."
+msgstr ""
+
+#: templates/admin/docs.php:200
+msgid "Good to know"
+msgstr ""
+
+#: templates/admin/docs.php:202
+msgid "Usernames and registration dates of existing users never change. The registration date is only used for new users."
+msgstr ""
+
+#: templates/admin/docs.php:203
+msgid "Roles may be written as names (Subscriber, Editor) or keys (subscriber). Several roles can be separated by commas. You can only assign roles you are allowed to assign, and your own role is never changed."
+msgstr ""
+
+#: templates/admin/docs.php:204
+msgid "Passwords: a “Password (plain text)” column sets the password. A “Password hash” column — available when “Allow exporting password hashes” is on — keeps users’ existing passwords when moving them between WordPress sites. Without either, new users get a strong random password."
+msgstr ""
+
+#: templates/admin/docs.php:205
+msgid "Values written as JSON by the export (complex custom fields) are restored as structured data. Simple lists exported as “a, b” are stored as text."
+msgstr ""
+
+#: templates/admin/docs.php:206
+msgid "Users are not emailed about profile or password changes made by an import."
+msgstr ""
+
+#: templates/admin/docs.php:207
+msgid "The uploaded file is never kept: its rows are stored in the protected plugin folder only while the import runs."
+msgstr ""
+
+#: templates/admin/docs.php:210
+msgid "<strong>Tip:</strong> run an export of your users before a large import, so you can restore them if a column was mapped incorrectly."
+msgstr ""
+
+#: templates/admin/docs.php:218
+msgid "Best for"
+msgstr ""
+
+#: templates/admin/docs.php:218
+msgid "Notes"
+msgstr ""
+
+#: templates/admin/docs.php:220
+msgid "Excel, Google Sheets, mailing tools, imports"
+msgstr ""
+
+#: templates/admin/docs.php:220
+msgid "Separator and UTF-8 marker are configurable in Settings."
+msgstr ""
+
+#: templates/admin/docs.php:221
+msgid "Sharing a ready-to-read spreadsheet"
+msgstr ""
+
+#: templates/admin/docs.php:221
+msgid "Styled header row, frozen headings, filter buttons, numeric IDs stored as numbers."
+msgstr ""
+
+#: templates/admin/docs.php:222
+msgid "Developers, scripts, APIs"
+msgstr ""
+
+#: templates/admin/docs.php:222
+msgid "An array of objects keyed by field key."
+msgstr ""
+
+#: templates/admin/docs.php:223
+msgid "Reporting systems that require XML"
+msgstr ""
+
+#: templates/admin/docs.php:223
+msgid "A <code>&lt;users&gt;</code> root with one <code>&lt;user&gt;</code> element per person."
+msgstr ""
+
+#: templates/admin/docs.php:232
+msgid "Each export is listed with its file name, size, format, number of users and columns, the template used and who ran it. <strong>Download</strong> fetches the file again. Administrators can delete single entries or everything at once."
+msgstr ""
+
+#: templates/admin/docs.php:233
+msgid "Files are removed automatically after the number of days set in Settings (30 by default). Set it to 0 to keep them forever."
+msgstr ""
+
+#: templates/admin/docs.php:240
+msgid "Default format / file name"
+msgstr ""
+
+#: templates/admin/docs.php:241
+msgid "Pre-filled in the wizard and the template editor."
+msgstr ""
+
+#: templates/admin/docs.php:242
+#: templates/admin/settings.php:64
+msgid "Users per batch"
+msgstr ""
+
+#: templates/admin/docs.php:243
+msgid "How many users each request processes. Lower it if exports stall on slow hosting."
+msgstr ""
+
+#: templates/admin/docs.php:244
+#: templates/admin/settings.php:75
+msgid "CSV separator"
+msgstr ""
+
+#: templates/admin/docs.php:245
+msgid "Comma, semicolon or tab."
+msgstr ""
+
+#: templates/admin/docs.php:246
+#: templates/admin/settings.php:86
+msgid "Registered date format"
+msgstr ""
+
+#: templates/admin/docs.php:247
+msgid "Raw database value in UTC, or your site’s date format and timezone."
+msgstr ""
+
+#: templates/admin/docs.php:248
+msgid "UTF-8 marker"
+msgstr ""
+
+#: templates/admin/docs.php:249
+msgid "Helps Excel show non-English characters correctly."
+msgstr ""
+
+#: templates/admin/docs.php:250
+msgid "Formula protection"
+msgstr ""
+
+#: templates/admin/docs.php:251
+msgid "Stops profile values from running as spreadsheet formulas."
+msgstr ""
+
+#: templates/admin/docs.php:252
+msgid "Keep export history / Delete exports after"
+msgstr ""
+
+#: templates/admin/docs.php:253
+msgid "Whether exports are listed in History, and for how long files are kept."
+msgstr ""
+
+#: templates/admin/docs.php:254
+#: templates/admin/settings.php:144
+msgid "Allow exporting password hashes"
+msgstr ""
+
+#: templates/admin/docs.php:255
+msgid "Adds the Password hash field for administrators. Off by default."
+msgstr ""
+
+#: templates/admin/docs.php:256
+#: templates/admin/settings.php:145
+msgid "Delete all plugin data on uninstall"
+msgstr ""
+
+#: templates/admin/docs.php:257
+msgid "Off by default, so reinstalling keeps your templates."
+msgstr ""
+
+#: templates/admin/docs.php:264
+msgid "Exports and imports touch personal data, so the plugin is strict about who can use them."
+msgstr ""
+
+#: templates/admin/docs.php:267
+msgid "Only users with the <code>list_users</code> capability (administrators by default) can export. Importing needs <code>create_users</code> and <code>edit_users</code>; Settings and deleting history need <code>manage_options</code>."
+msgstr ""
+
+#: templates/admin/docs.php:268
+msgid "Files are saved in a folder inside <code>wp-content/uploads/</code> whose name ends in a random 24-character code, and every file name contains another random 24-character code. Apache, LiteSpeed and IIS block the folder automatically; downloads always go through WordPress with a security check."
+msgstr ""
+
+#: templates/admin/docs.php:269
+msgid "The plugin tests the folder with an anonymous request to your own site and shows the result under <strong>Settings → File storage security</strong> and in <strong>Tools → Site Health</strong>."
+msgstr ""
+
+#: templates/admin/docs.php:270
+msgid "To keep files outside the web root entirely, add <code>define( 'USERFERRY_EXPORT_DIR', '/path/outside/public_html/userferry' );</code> to wp-config.php."
+msgstr ""
+
+#: templates/admin/docs.php:271
+msgid "Session tokens and capability data are never exportable. Password hashes are only available when an administrator turns them on."
+msgstr ""
+
+#: templates/admin/docs.php:272
+msgid "Every request is protected by a WordPress nonce, and all input is sanitized."
+msgstr ""
+
+#: templates/admin/docs.php:273
+msgid "The plugin never contacts other websites and does not load Gravatar images — the user picker shows initials instead. The only HTTP request it makes is the folder check to your own site."
+msgstr ""
+
+#: templates/admin/docs.php:274
+msgid "Imports are limited to 100,000 rows, 250 columns, 64 KB per cell and 20 MB for JSON files. Every part of an Excel file is size-checked before it is read, and a file that breaks a limit — or has values in columns without a name — is rejected with a clear message instead of being cut off silently."
+msgstr ""
+
+#: templates/admin/docs.php:277
+msgid "<strong>Nginx users:</strong> Nginx ignores .htaccess files. If the storage check reports the folder as publicly accessible, copy the rule shown in Settings into your server block and reload Nginx."
+msgstr ""
+
+#: templates/admin/docs.php:284
+msgid "Can I export users’ passwords?"
+msgstr ""
+
+#: templates/admin/docs.php:285
+msgid "No plugin can export readable passwords: WordPress only stores a one-way hash. If you are moving users to another WordPress site, an administrator can enable “Allow exporting password hashes” in Settings; the hash keeps working on the new site. For anything else, ask users to reset their password."
+msgstr ""
+
+#: templates/admin/docs.php:288
+msgid "A custom field I need is missing."
+msgstr ""
+
+#: templates/admin/docs.php:289
+msgid "A meta key only exists once at least one user has a value for it. Make sure someone has filled it in, then click “Scan custom fields”. Also open the “Hidden & plugin data” group — keys beginning with an underscore are listed there."
+msgstr ""
+
+#: templates/admin/docs.php:292
+msgid "Accents or Bangla characters look broken in Excel."
+msgstr ""
+
+#: templates/admin/docs.php:293
+msgid "Turn on “Add UTF-8 marker to CSV” in Settings, or export as Excel (XLSX), which always stores text as UTF-8."
+msgstr ""
+
+#: templates/admin/docs.php:296
+msgid "The export stops partway through."
+msgstr ""
+
+#: templates/admin/docs.php:297
+msgid "Lower “Users per batch” in Settings (try 50) so each request does less work, and keep the browser tab open until the download starts."
+msgstr ""
+
+#: templates/admin/docs.php:300
+msgid "Does it work on multisite?"
+msgstr ""
+
+#: templates/admin/docs.php:301
+msgid "Yes, per site. Each site exports the users that belong to it."
+msgstr ""
+
+#: templates/admin/docs.php:307
+msgid "All hooks are prefixed with <code>userferry_</code>. All PHP classes are prefixed with <code>UserFerry_</code>."
+msgstr ""
+
+#: templates/admin/docs.php:310
+msgid "Hook"
+msgstr ""
+
+#: templates/admin/docs.php:310
+#: templates/admin/history.php:47
+msgid "Type"
+msgstr ""
+
+#: templates/admin/docs.php:310
+msgid "Purpose"
+msgstr ""
+
+#: templates/admin/docs.php:312
+#: templates/admin/docs.php:313
+#: templates/admin/docs.php:314
+#: templates/admin/docs.php:315
+#: templates/admin/docs.php:316
+#: templates/admin/docs.php:317
+#: templates/admin/docs.php:318
+#: templates/admin/docs.php:319
+msgid "Filter"
+msgstr ""
+
+#: templates/admin/docs.php:312
+msgid "Capability required to export. Default list_users."
+msgstr ""
+
+#: templates/admin/docs.php:313
+msgid "Add, rename or remove WordPress profile fields."
+msgstr ""
+
+#: templates/admin/docs.php:314
+msgid "Adjust the scanned custom fields or their labels."
+msgstr ""
+
+#: templates/admin/docs.php:315
+msgid "Move a meta key in or out of the Hidden & plugin data group."
+msgstr ""
+
+#: templates/admin/docs.php:316
+msgid "Change where export files and temporary import data are stored (or use the USERFERRY_EXPORT_DIR constant)."
+msgstr ""
+
+#: templates/admin/docs.php:317
+msgid "Adjust import limits: rows, columns, cell size, JSON size and Excel sizes."
+msgstr ""
+
+#: templates/admin/docs.php:318
+msgid "Modify the WP_User_Query arguments of an export."
+msgstr ""
+
+#: templates/admin/docs.php:319
+msgid "Change any exported value (receives value, field key and WP_User)."
+msgstr ""
+
+#: templates/admin/docs.php:320
+#: templates/admin/docs.php:321
+msgid "Action"
+msgstr ""
+
+#: templates/admin/docs.php:320
+msgid "Runs after an import finishes (receives the created/updated/skipped/failed counts and job data)."
+msgstr ""
+
+#: templates/admin/docs.php:321
+msgid "Runs after a file is written (receives path, config and user count)."
+msgstr ""
+
+#: templates/admin/docs.php:325
+msgid "Example: export a field with a friendly value."
+msgstr ""
+
+#. translators: 1: plugin version, 2: developer name
+#: templates/admin/docs.php:339
+msgid "UserFerry %1$s is developed and maintained by <strong>%2$s</strong>. It is free software released under the GNU General Public License v2 or later."
+msgstr ""
+
+#: templates/admin/export.php:14
+msgid "Who to include"
+msgstr ""
+
+#: templates/admin/export.php:14
+msgid "Who should be included?"
+msgstr ""
+
+#: templates/admin/export.php:14
+msgid "Export everyone, a role, a registration period or hand-picked people. The counter below updates as you choose."
+msgstr ""
+
+#: templates/admin/export.php:15
+msgid "Choose columns"
+msgstr ""
+
+#: templates/admin/export.php:15
+msgid "Which fields become columns?"
+msgstr ""
+
+#: templates/admin/export.php:15
+msgid "Tick the profile and custom fields you need. Each ticked field becomes a column, in the order shown at the bottom."
+msgstr ""
+
+#: templates/admin/export.php:16
+msgid "File type & name"
+msgstr ""
+
+#: templates/admin/export.php:16
+msgid "Choose a file format"
+msgstr ""
+
+#: templates/admin/export.php:16
+msgid "Pick the format that suits where the file is going, and name it."
+msgstr ""
+
+#: templates/admin/export.php:17
+msgid "Check and download"
+msgstr ""
+
+#: templates/admin/export.php:17
+msgid "Review and export"
+msgstr ""
+
+#: templates/admin/export.php:17
+msgid "Check everything, optionally save it as a template, then run the export."
+msgstr ""
+
+#. translators: 1: current step number, 2: number of steps
+#: templates/admin/export.php:34
+msgid "Step %1$s of %2$s"
+msgstr ""
+
+#: templates/admin/export.php:48
+msgid "Go to export"
+msgstr ""
+
+#: templates/admin/export.php:49
+msgid "Start blank instead"
+msgstr ""
+
+#: templates/admin/export.php:77
+msgid "Continue to fields"
+msgstr ""
+
+#: templates/admin/export.php:89
+#: templates/admin/export.php:102
+#: templates/admin/export.php:133
+#: templates/admin/import.php:165
+#: templates/admin/import.php:184
+msgid "Back"
+msgstr ""
+
+#: templates/admin/export.php:91
+msgid "Continue to format"
+msgstr ""
+
+#: templates/admin/export.php:104
+msgid "Review export"
+msgstr ""
+
+#: templates/admin/export.php:115
+msgid "Save these settings as a template"
+msgstr ""
+
+#: templates/admin/export.php:116
+msgid "Next time, run the same users, fields and format with one click."
+msgstr ""
+
+#: templates/admin/export.php:120
+msgid "Save as new template"
+msgstr ""
+
+#: templates/admin/export.php:123
+#: templates/admin/templates.php:75
+msgid "Template name"
+msgstr ""
+
+#: templates/admin/export.php:124
+msgid "Template name, e.g. Subscribers — login & education"
+msgstr ""
+
+#: templates/admin/header.php:24
+msgid "Overview"
+msgstr ""
+
+#: templates/admin/header.php:32
+msgid "Plugin"
+msgstr ""
+
+#: templates/admin/header.php:39
+msgid "Settings saved."
+msgstr ""
+
+#: templates/admin/header.php:41
+msgid "File storage check finished."
+msgstr ""
+
+#: templates/admin/header.php:59
+msgid "Export & Import Users"
+msgstr ""
+
+#: templates/admin/header.php:88
+msgid "Developed by"
+msgstr ""
+
+#. translators: %s: plugin version
+#: templates/admin/header.php:94
+msgid "Version %s"
+msgstr ""
+
+#: templates/admin/header.php:119
+msgid "Export files can be downloaded without logging in."
+msgstr ""
+
+#: templates/admin/header.php:120
+msgid "Your web server ignores the folder’s protection rules (common on Nginx)."
+msgstr ""
+
+#: templates/admin/header.php:121
+msgid "See how to fix it"
+msgstr ""
+
+#. translators: %s: number of days
+#: templates/admin/history.php:27
+msgid "Export files are deleted automatically after %s day. Change this in Settings."
+msgid_plural "Export files are deleted automatically after %s days. Change this in Settings."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/admin/history.php:29
+msgid "Automatic cleanup is turned off — export files are kept until you delete them."
+msgstr ""
+
+#: templates/admin/history.php:37
+msgid "Nothing here yet"
+msgstr ""
+
+#: templates/admin/history.php:38
+msgid "Exports are kept here so you can download them again; imports are listed with their results."
+msgstr ""
+
+#: templates/admin/history.php:39
+msgid "Run an export"
+msgstr ""
+
+#: templates/admin/history.php:46
+#: templates/admin/templates.php:101
+msgid "File"
+msgstr ""
+
+#: templates/admin/history.php:50
+#: templates/admin/templates.php:37
+msgid "Columns"
+msgstr ""
+
+#: templates/admin/history.php:51
+msgid "Template"
+msgstr ""
+
+#: templates/admin/history.php:52
+msgid "Run by"
+msgstr ""
+
+#: templates/admin/history.php:53
+msgid "Date"
+msgstr ""
+
+#: templates/admin/history.php:54
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/history.php:94
+msgid "History pages"
+msgstr ""
+
+#: templates/admin/import.php:16
+msgid "CSV, Excel, JSON or XML"
+msgstr ""
+
+#: templates/admin/import.php:17
+#: templates/admin/import.php:73
+msgid "Match columns to fields"
+msgstr ""
+
+#: templates/admin/import.php:18
+msgid "Create, update or skip"
+msgstr ""
+
+#: templates/admin/import.php:19
+msgid "Run and see results"
+msgstr ""
+
+#: templates/admin/import.php:39
+msgid "Upload a file"
+msgstr ""
+
+#: templates/admin/import.php:45
+msgid "Drop your file here, or click to browse"
+msgstr ""
+
+#. translators: %s: maximum upload size, e.g. "64 MB"
+#: templates/admin/import.php:49
+msgid "CSV, Excel (.xlsx), JSON or XML · up to %s"
+msgstr ""
+
+#: templates/admin/import.php:62
+msgid "Files exported by this plugin import as-is."
+msgstr ""
+
+#: templates/admin/import.php:62
+msgid "Their columns are matched to the right fields automatically. Files from other tools work too — the first row must contain column names."
+msgstr ""
+
+#: templates/admin/import.php:77
+msgid "Each column in your file is imported into the field on the right. Columns set to “Don’t import” are ignored."
+msgstr ""
+
+#: templates/admin/import.php:82
+msgid "Column in your file"
+msgstr ""
+
+#: templates/admin/import.php:83
+msgid "Example values"
+msgstr ""
+
+#: templates/admin/import.php:84
+msgid "Import into"
+msgstr ""
+
+#: templates/admin/import.php:92
+msgid "Choose a different file"
+msgstr ""
+
+#: templates/admin/import.php:95
+msgid "Continue to options"
+msgstr ""
+
+#: templates/admin/import.php:101
+msgid "Import options"
+msgstr ""
+
+#: templates/admin/import.php:106
+#: templates/admin/settings.php:119
+msgid "Find existing users by"
+msgstr ""
+
+#: templates/admin/import.php:107
+msgid "If no match is found by this field, email and username are tried next."
+msgstr ""
+
+#: templates/admin/import.php:123
+#: templates/admin/settings.php:130
+msgid "When a user already exists"
+msgstr ""
+
+#: templates/admin/import.php:124
+msgid "Update overwrites their profile with values from the file. Usernames and registration dates never change."
+msgstr ""
+
+#: templates/admin/import.php:127
+#: templates/admin/settings.php:134
+msgid "Update them"
+msgstr ""
+
+#: templates/admin/import.php:128
+#: templates/admin/settings.php:135
+msgid "Skip them"
+msgstr ""
+
+#: templates/admin/import.php:133
+msgid "Create new users"
+msgstr ""
+
+#: templates/admin/import.php:134
+msgid "Rows that don’t match anyone become new accounts. Without a password column a strong random password is set."
+msgstr ""
+
+#: templates/admin/import.php:140
+msgid "Role for new users"
+msgstr ""
+
+#: templates/admin/import.php:141
+msgid "Used when the file has no Role column or the cell is empty."
+msgstr ""
+
+#: templates/admin/import.php:151
+msgid "Ignore empty cells"
+msgstr ""
+
+#: templates/admin/import.php:152
+msgid "Recommended. When off, an empty cell clears that field for existing users."
+msgstr ""
+
+#: templates/admin/import.php:158
+#: templates/admin/settings.php:138
+msgid "Email new users their login details"
+msgstr ""
+
+#: templates/admin/import.php:159
+msgid "Sends the standard WordPress “set your password” email to each new account."
+msgstr ""
+
+#: templates/admin/import.php:167
+msgid "Review import"
+msgstr ""
+
+#: templates/admin/import.php:173
+msgid "Review and import"
+msgstr ""
+
+#: templates/admin/import.php:178
+msgid "Importing changes user accounts and cannot be undone. Export your users first if you might need to roll back."
+msgstr ""
+
+#: templates/admin/partials/actions.php:24
+msgid "New export"
+msgstr ""
+
+#: templates/admin/partials/actions.php:33
+msgid "Start from a template"
+msgstr ""
+
+#: templates/admin/partials/actions.php:35
+msgid "None — start blank"
+msgstr ""
+
+#: templates/admin/partials/actions.php:54
+msgid "Delete all history"
+msgstr ""
+
+#: templates/admin/partials/actions.php:61
+msgid "How importing works"
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:21
+msgid "Filter fields"
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:24
+msgid "Filter by field name or meta key"
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:45
+#: templates/admin/partials/field-picker.php:65
+msgid "Select all"
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:46
+#: templates/admin/partials/field-picker.php:66
+#: templates/admin/partials/field-picker.php:86
+msgid "Clear"
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:62
+msgid "Found in your user meta — ACF, Ultimate Member, WooCommerce, BuddyPress, registration forms and other plugins."
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:76
+msgid "No custom profile fields were found. If you just added a plugin that stores user data, click “Scan custom fields”."
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:83
+msgid "Internal keys, admin screen preferences and plugin housekeeping. Rarely needed in an export."
+msgstr ""
+
+#: templates/admin/partials/field-picker.php:104
+msgid "Drag to reorder, or focus a column and use the arrow keys. Delete removes it."
+msgstr ""
+
+#: templates/admin/partials/format.php:17
+msgid "Opens in Excel, Google Sheets and Numbers. Best for imports into other tools."
+msgstr ""
+
+#: templates/admin/partials/format.php:18
+msgid "A real Excel workbook with a styled header row, filters and frozen headings."
+msgstr ""
+
+#: templates/admin/partials/format.php:19
+msgid "An array of user objects for developers, scripts and APIs."
+msgstr ""
+
+#: templates/admin/partials/format.php:20
+msgid "Structured markup for reporting systems that expect XML."
+msgstr ""
+
+#: templates/admin/partials/format.php:25
+msgid "File format"
+msgstr ""
+
+#: templates/admin/partials/format.php:34
+msgid "Unavailable: the PHP ZipArchive extension is not installed on this server."
+msgstr ""
+
+#: templates/admin/partials/format.php:42
+msgid "File name"
+msgstr ""
+
+#: templates/admin/partials/format.php:47
+msgid "The date and a short random code are added automatically, so exports never overwrite each other."
+msgstr ""
+
+#: templates/admin/partials/scope.php:21
+msgid "Everyone registered on this site."
+msgstr ""
+
+#: templates/admin/partials/scope.php:22
+msgid "By role"
+msgstr ""
+
+#: templates/admin/partials/scope.php:22
+msgid "Subscribers, customers, authors…"
+msgstr ""
+
+#: templates/admin/partials/scope.php:23
+msgid "By registration date"
+msgstr ""
+
+#: templates/admin/partials/scope.php:23
+msgid "Today, last week, last month or a custom range."
+msgstr ""
+
+#: templates/admin/partials/scope.php:24
+msgid "Specific users"
+msgstr ""
+
+#: templates/admin/partials/scope.php:24
+msgid "Pick people one by one from a searchable list."
+msgstr ""
+
+#: templates/admin/partials/scope.php:29
+msgid "Which users"
+msgstr ""
+
+#: templates/admin/partials/scope.php:43
+msgid "Include users with any of these roles"
+msgstr ""
+
+#: templates/admin/partials/scope.php:56
+msgid "Registered"
+msgstr ""
+
+#: templates/admin/partials/scope.php:60
+msgid "Today"
+msgstr ""
+
+#: templates/admin/partials/scope.php:61
+msgid "Last 7 days"
+msgstr ""
+
+#: templates/admin/partials/scope.php:62
+msgid "Last 30 days"
+msgstr ""
+
+#: templates/admin/partials/scope.php:63
+msgid "Custom range"
+msgstr ""
+
+#: templates/admin/partials/scope.php:71
+msgid "From"
+msgstr ""
+
+#: templates/admin/partials/scope.php:72
+msgid "To"
+msgstr ""
+
+#: templates/admin/partials/scope.php:82
+msgid "Search name, username or email"
+msgstr ""
+
+#: templates/admin/partials/scope.php:82
+msgid "Search users"
+msgstr ""
+
+#: templates/admin/partials/scope.php:84
+msgid "Filter by role"
+msgstr ""
+
+#: templates/admin/partials/scope.php:85
+msgid "All roles"
+msgstr ""
+
+#: templates/admin/partials/scope.php:95
+msgid "Select every user on this page"
+msgstr ""
+
+#: templates/admin/partials/scope.php:96
+msgid "User"
+msgstr ""
+
+#: templates/admin/partials/scope.php:105
+msgid "selected"
+msgstr ""
+
+#: templates/admin/partials/scope.php:105
+msgid "Clear selection"
+msgstr ""
+
+#: templates/admin/partials/scope.php:108
+msgid "Previous page"
+msgstr ""
+
+#: templates/admin/partials/scope.php:109
+msgid "Next page"
+msgstr ""
+
+#: templates/admin/partials/scope.php:118
+msgid "Only users matching (optional)"
+msgstr ""
+
+#: templates/admin/partials/scope.php:119
+msgid "e.g. @gmail.com or a username"
+msgstr ""
+
+#: templates/admin/partials/scope.php:122
+msgid "Sort rows by"
+msgstr ""
+
+#: templates/admin/partials/scope.php:129
+msgid "Sort direction"
+msgstr ""
+
+#: templates/admin/partials/scope.php:130
+msgid "Ascending"
+msgstr ""
+
+#: templates/admin/partials/scope.php:131
+msgid "Descending"
+msgstr ""
+
+#: templates/admin/settings.php:43
+msgid "Export defaults"
+msgstr ""
+
+#: templates/admin/settings.php:46
+msgid "Default format"
+msgstr ""
+
+#: templates/admin/settings.php:47
+msgid "Pre-selected in the wizard and for new templates."
+msgstr ""
+
+#: templates/admin/settings.php:57
+msgid "Default file name"
+msgstr ""
+
+#: templates/admin/settings.php:58
+msgid "Letters, numbers, dots, dashes and underscores."
+msgstr ""
+
+#: templates/admin/settings.php:65
+msgid "Exports run in batches so large sites never time out. Lower this on slow hosting; raise it on fast servers. 25–2000."
+msgstr ""
+
+#: templates/admin/settings.php:72
+msgid "File output"
+msgstr ""
+
+#: templates/admin/settings.php:76
+msgid "Many European versions of Excel expect a semicolon."
+msgstr ""
+
+#: templates/admin/settings.php:79
+msgid "Comma ( , )"
+msgstr ""
+
+#: templates/admin/settings.php:80
+msgid "Semicolon ( ; )"
+msgstr ""
+
+#: templates/admin/settings.php:81
+msgid "Tab"
+msgstr ""
+
+#: templates/admin/settings.php:87
+msgid "Raw keeps the database value (UTC, sortable). Site format uses your WordPress date and time settings and timezone."
+msgstr ""
+
+#: templates/admin/settings.php:90
+msgid "Raw — 2026-03-14 09:30:00"
+msgstr ""
+
+#: templates/admin/settings.php:91
+msgid "Site date & time format"
+msgstr ""
+
+#: templates/admin/settings.php:95
+msgid "Add UTF-8 marker to CSV"
+msgstr ""
+
+#: templates/admin/settings.php:95
+msgid "Makes Excel display accented and non-Latin characters (e.g. বাংলা, é, ü) correctly."
+msgstr ""
+
+#: templates/admin/settings.php:96
+msgid "Protect against spreadsheet formulas"
+msgstr ""
+
+#: templates/admin/settings.php:96
+msgid "Values that start with =, +, - or @ are prefixed with an apostrophe so a malicious profile value cannot run as a formula in Excel."
+msgstr ""
+
+#: templates/admin/settings.php:102
+msgid "Keep export history"
+msgstr ""
+
+#: templates/admin/settings.php:102
+msgid "Record each export on the History screen so the file can be downloaded again."
+msgstr ""
+
+#: templates/admin/settings.php:105
+msgid "Delete exports after"
+msgstr ""
+
+#: templates/admin/settings.php:106
+msgid "Old files and history entries are removed once a day. Use 0 to keep them forever."
+msgstr ""
+
+#: templates/admin/settings.php:110
+msgid "days"
+msgstr ""
+
+#: templates/admin/settings.php:116
+msgid "Import defaults"
+msgstr ""
+
+#: templates/admin/settings.php:120
+msgid "Pre-selected on the Import screen."
+msgstr ""
+
+#: templates/admin/settings.php:131
+msgid "Default choice for rows that match an existing account."
+msgstr ""
+
+#: templates/admin/settings.php:138
+msgid "Default for the matching option on the Import screen."
+msgstr ""
+
+#: templates/admin/settings.php:142
+msgid "Privacy & data"
+msgstr ""
+
+#: templates/admin/settings.php:144
+msgid "Adds a “Password hash” field to exports and imports for administrators. WordPress never stores readable passwords — the hash lets users keep their password when you move them to another WordPress site. Keep this off unless you need it."
+msgstr ""
+
+#: templates/admin/settings.php:145
+msgid "Removes templates, history, export files and settings when the plugin is deleted from the Plugins screen."
+msgstr ""
+
+#: templates/admin/settings.php:152
+msgid "Protected"
+msgstr ""
+
+#: templates/admin/settings.php:152
+msgid "An anonymous request for a file in the storage folder was refused, so export files cannot be downloaded without logging in."
+msgstr ""
+
+#: templates/admin/settings.php:153
+msgid "Outside the web root"
+msgstr ""
+
+#: templates/admin/settings.php:153
+msgid "Files are stored in a folder the web server does not serve. This is the safest setup."
+msgstr ""
+
+#: templates/admin/settings.php:154
+msgid "Publicly accessible"
+msgstr ""
+
+#: templates/admin/settings.php:154
+msgid "Your web server ignores the folder’s .htaccess / web.config rules (this is normal on Nginx). The folder name and file names are long random codes, but you should block the folder with the rule below, or move storage outside the web root."
+msgstr ""
+
+#: templates/admin/settings.php:155
+msgid "Could not be verified"
+msgstr ""
+
+#: templates/admin/settings.php:155
+msgid "The check could not prove that the folder is blocked — the reason is shown below. Add the rule below if you use Nginx, or keep files outside the web root, then click “Check again”."
+msgstr ""
+
+#: templates/admin/settings.php:160
+msgid "File storage security"
+msgstr ""
+
+#: templates/admin/settings.php:170
+msgid "Check again"
+msgstr ""
+
+#: templates/admin/settings.php:173
+msgid "Folder"
+msgstr ""
+
+#: templates/admin/settings.php:175
+msgid "Last checked"
+msgstr ""
+
+#: templates/admin/settings.php:184
+msgid "Nginx: add this to your server block, then reload Nginx"
+msgstr ""
+
+#: templates/admin/settings.php:188
+msgid "Or keep files outside the web root — add this to wp-config.php (the folder must be writable by PHP):"
+msgstr ""
+
+#: templates/admin/settings.php:194
+msgid "Save settings"
+msgstr ""
+
+#: templates/admin/templates.php:17
+msgid "No templates yet"
+msgstr ""
+
+#: templates/admin/templates.php:18
+msgid "For example: “Subscribers — username, email, last name and education”. Create it once, then export it whenever you need a fresh copy."
+msgstr ""
+
+#. translators: %s: number of extra fields
+#: templates/admin/templates.php:45
+msgid "+%s more"
+msgstr ""
+
+#: templates/admin/templates.php:52
+msgid "Open in wizard"
+msgstr ""
+
+#: templates/admin/templates.php:55
+msgid "Duplicate"
+msgstr ""
+
+#: templates/admin/templates.php:72
+msgid "Name"
+msgstr ""
+
+#: templates/admin/templates.php:76
+msgid "e.g. Subscribers — login & education"
+msgstr ""
+
+#: templates/admin/templates.php:79
+msgid "Note (optional)"
+msgstr ""
+
+#: templates/admin/templates.php:80
+msgid "Who uses this export and why"
+msgstr ""
